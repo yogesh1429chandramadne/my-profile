@@ -5,33 +5,47 @@
         <!-- Cdn link  -->
         <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" image="image/x-icon" href="developer.png"> 
-        
+        <style>
+            #name{color: rgb(200, 30, 129); margin-right: 30px;}
+            .mobile{color:black; margin-right: 30px; }
+            .home{color: black; margin-right: 20px;}
+            .Tech{color: brown; margin-right: 20px;}
+            .education{color: crimson; margin-right:20px;}
+             #body{ background-color: rgb(33, 203, 73);}
+             .follow{margin-right: 30px; font-weight: 200;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+             .insta{ margin-right: 30px;}
+             .facebook{ margin-right: 30px;}
+             .linkedin{ margin-right: 30px;}
+
+
+        </style>
        
     </head>
     
 <body>
     <header style="color: sienna;background-color: violet;"> 
-        <i class="fa fa-user fa-3x"></i><strong> Mohit Sharma</strong>&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-mobile fa-3x" ></i><strong>8600 2456 77</strong>&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-envelope fa-3x"></i> <strong> abc@gmail.com</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-user fa-3x" ></i><strong id="name"> Mohit Sharma</strong>
+        <i class="fa fa-mobile fa-3x" ></i><strong class="mobile">8600 2456 77</strong>
+        <i class="fa fa-envelope fa-3x"></i> <strong> abc@gmail.com</strong>
     </header>
     <br>
-    <nav>
-        <a href="home.htm" target="myFrame">Home</a>&nbsp;&nbsp;
-        <a href="techStack.html" target="myFrame">Tech Stack</a>&nbsp;&nbsp;
-    <a href="education.html" target="myFrame">Education</a>&nbsp;&nbsp;
-    <a href="contactUs.html" target="myFrame">contactUs</a>&nbsp;&nbsp;
+    <nav id="body">
+        <a href="home.htm" target="myFrame" class="home">Home</a>
+        <a href="techStack.html" target="myFrame" class="Tech">Tech Stack</a>
+    <a href="education.html" target="myFrame" class="education">Education</a>
+    <a href="contactUs.html" target="myFrame">contactUs</a>
     </nav>
    
 <br>
-<iframe width="1050px" height="550px" name="myFrame">
+<iframe width="1050px" height="550px" name="myFrame" src="home.htm">
+    
     </iframe>
 <footer>
-    <strong> Follow Me:&nbsp;&nbsp;</strong>
-    <a href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
-    <a href="https://www.facebook.com/login/" > <i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;
-    <a href="https://in.linkedin.com/"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
-    <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>&nbsp;&nbsp;
+    <strong class="follow"> Follow Me:</strong>
+    <a href="https://www.instagram.com/" class="insta"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/login/" class="facebook"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://in.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
  
 </footer>
 </body>
