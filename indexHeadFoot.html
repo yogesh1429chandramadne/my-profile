@@ -5,31 +5,42 @@
         <!-- Cdn link  -->
         <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" image="image/x-icon" href="developer.png"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@1,1&display=swap" >
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
         <style>
             #name{color: rgb(200, 30, 129); margin-right: 30px;}
             .mobile{color:black; margin-right: 30px; }
             .home{color: black; margin-right: 20px;}
             .Tech{color: brown; margin-right: 20px;}
             .education{color: crimson; margin-right:20px;}
-             #body{ background-color: rgb(33, 203, 73);}
-             .follow{margin-right: 30px; font-weight: 200;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+             #frame{ background-color: rgb(33, 203, 73); font-family: oswald;}
+             .follow{ margin-right: 30px; font-weight: 200;font-family:sofia sans condensed;color: rgb(255, 0, 0);}
              .insta{ margin-right: 30px;}
              .facebook{ margin-right: 30px;}
              .linkedin{ margin-right: 30px;}
-
+             .head{color: sienna;background-color: violet; border-radius: 10px; font-family: kanit;}
+             .body{background-color: turquoise; margin-right: 350px;}
+           
 
         </style>
        
     </head>
-    
-<body>
-    <header style="color: sienna;background-color: violet;"> 
+   
+<body class="body">
+    <header class="head" > 
         <i class="fa fa-user fa-3x" ></i><strong id="name"> Mohit Sharma</strong>
         <i class="fa fa-mobile fa-3x" ></i><strong class="mobile">8600 2456 77</strong>
         <i class="fa fa-envelope fa-3x"></i> <strong> abc@gmail.com</strong>
     </header>
     <br>
-    <nav id="body">
+    <nav id="frame">
         <a href="home.htm" target="myFrame" class="home">Home</a>
         <a href="techStack.html" target="myFrame" class="Tech">Tech Stack</a>
     <a href="education.html" target="myFrame" class="education">Education</a>
@@ -37,7 +48,7 @@
     </nav>
    
 <br>
-<iframe width="1050px" height="550px" name="myFrame" src="home.htm">
+<iframe width="1050px" height="550px" name="myFrame" src="home.htm" class="box">
     
     </iframe>
 <footer>
